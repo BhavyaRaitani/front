@@ -15,7 +15,7 @@ document.getElementById('jsonForm').addEventListener('submit', async (e) => {
         dropdownContainer.style.display = 'block';
 
         // Submit JSON to backend
-        const response = await fetch('http://localhost:5000/bfhl', { // Replace with your backend URL
+        const response = await fetch('https://vercel.com/bhavyas-projects-3829192d/bfhlrepo/8FpAjXkptXmyDbCqMqgnuA7RgFYJ', { 
             method: 'POST',
             headers: { 'Content-Type': 'application/json' },
             body: JSON.stringify(jsonData)
